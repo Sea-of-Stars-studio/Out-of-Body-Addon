@@ -1,6 +1,6 @@
 # [MCBE]Out-of-Body
 ● Chinese Name: 灵魂出窍(Línghún Chúqiào)  
-○ English Name: Out-of-Bod y
+○ English Name: Out-of-Body
 ◇ Current Version: E1.1  
 ◇ Author: EnderTrekker  
 ◇ Studio: Starsea Studio  
