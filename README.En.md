@@ -10,9 +10,6 @@ Bedrock Edition Addon
 
 ## Download Method
 
-~~lip install github.com/wed150/Wild-Era-Addon~~
-
-~~This is not LeviLamina~~
 
 Correct method:
 ```
