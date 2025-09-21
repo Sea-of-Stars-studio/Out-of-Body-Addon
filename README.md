@@ -18,7 +18,7 @@
 >[草方块社区](https://web.mccfk.cn/h5/#/pages/plugins/sy_appbox/info?id=926&title=starpro)</br>
 >[MINEBBS](https://www.minebbs.com/resources/e.11200/)</br>
 >[苦力怕论坛](https://klpbbs.com/thread-161066-1-1.html)</br>
->[123网盘](https://www.123865.com/s/HmjHvd-SOVKdMINEBBShttps://www.minebbs.com/resources/e.11200/)</br>
+>[123网盘](https://www.123865.com/s/HmjHvd-lYTud)</br>
 >[蓝奏云:密码d2yh](https://wwrp.lanzout.com/b00uyc6ued)</br>
 >[夸克](https://pan.quark.cn/s/7d88419614a6)
 
