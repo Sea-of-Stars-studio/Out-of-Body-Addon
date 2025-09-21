@@ -1,4 +1,4 @@
-# Wild Era Addon
+# Out Of Body Addon
 
 
 [![English](https://img.shields.io/badge/English-inactive?style=for-the-badge&color=%235d8aa8)](README.En.md)
