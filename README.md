@@ -11,20 +11,14 @@
 基岩版Addon
 
 ## 下载方法
-
-~~lip install github.com/wed150/Wild-Era-Addon~~
-
-~~这里不是LeviLamina~~
-
-正确方法:
 ```
 打开本仓库的Release,找到对应版本下载
 或者使用XXXXXXX
 ```
 ## 支持我们(爱发电)
 
-[![Static Badge](https://img.shields.io/badge/wed15-%239469e3?style=for-the-badge)](https://afdian.com/a/Minecraft-Mobius) [![Static Badge](https://img.shields.io/badge/luning39-%239469e3?style=for-the-badge)](https://afdian.com/a/luning39) [![Static Badge](https://img.shields.io/badge/Multidomain-%239469e3?style=for-the-badge)](https://afdian.com/a/Multidomain)
+[![Static Badge](https://img.shields.io/badge/EndTrekker-%239469e3?style=for-the-badge)](https://afdian.com/a/EndTrekker)  [![Static Badge](https://img.shields.io/badge/wed15-%239469e3?style=for-the-badge)](https://afdian.com/a/Minecraft-Mobius)  
 
 >[!WARNING]
->Copyright (c) 2025 **Wild Era Developer Team**.保留所有权。</br>
+>Copyright (c) 2025 **Sea Of Stars Studios**.保留所有权。</br>
 未经事先许可，**严禁**复制、修改、分发、或使用附加包的任何一部分
