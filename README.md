@@ -1,5 +1,5 @@
 
-# 荒野纪元 Addon
+# 灵魂出窍 Addon
 
 ![中文](https://img.shields.io/badge/简体中文-inactive?style=for-the-badge&color=%235d8aa8)
 [![English](https://img.shields.io/badge/English-informational?style=for-the-badge)](README.En.md)
