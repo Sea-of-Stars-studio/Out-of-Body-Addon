@@ -17,7 +17,7 @@
 ```
 ## 支持我们(爱发电)
 
-[![Static Badge](https://img.shields.io/badge/EndTrekker-%239469e3?style=for-the-badge)](https://afdian.com/a/EndTrekker)  [![Static Badge](https://img.shields.io/badge/wed15-%239469e3?style=for-the-badge)](https://afdian.com/a/Minecraft-Mobius)  
+[![Static Badge](https://img.shields.io/badge/EnderTrekker-%239469e3?style=for-the-badge)](https://afdian.com/a/EnderTrekker)  [![Static Badge](https://img.shields.io/badge/wed15-%239469e3?style=for-the-badge)](https://afdian.com/a/Minecraft-Mobius)  
 
 >[!WARNING]
 >Copyright (c) 2025 **Sea Of Stars Studios**.保留所有权。</br>
