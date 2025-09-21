@@ -1,25 +1,30 @@
-# [MCBE]Out-of-Body
-● Chinese Name: 灵魂出窍(Línghún Chúqiào)  
-○ English Name: Out-of-Body
-◇ Current Version: E1.1  
-◇ Author: EnderTrekker  
-◇ Studio: Starsea Studio  
 
-➠ This add-on is independently developed by EnderTrekker of Starsea Studio.  
-It implements a basic out-of-body experience feature for the Java Edition.  
+# 荒野纪元 Addon
 
-➠ Important Notes:  
-1. After installing the add-on, enable Experimental APIs in your world settings.  
-2. Upon loading the world, a help screen will appear immediately. If it doesn't, your version may be incompatible. For versions below 1.21.70, join our QQ Channel: 星之海工作室交流频道 to download legacy versions.  
+![中文](https://img.shields.io/badge/简体中文-inactive?style=for-the-badge&color=%235d8aa8)
+[![English](https://img.shields.io/badge/English-informational?style=for-the-badge)](README.En.md)
 
-➠ Usage:  
-1. Type "帮助" (help) in chat to view the current version and usage guide.  
-2. Type "开启" (enable) to activate the out-of-body experience.  
-3. Type "关闭" (disable) to deactivate the out-of-body experience.  
+[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/wed150/Wild-Era-Addon/total?style=for-the-badge&labelColor=%23007ec6&label=下载&color=%234b9cd3)](https://github.com/wed150/Wild-Era-Addon/releases) [![GitHub forks](https://img.shields.io/github/forks/wed150/Wild-Era-Addon?style=for-the-badge&labelColor=%23007ec6&color=%234b9cd3)]() [![GitHub Repo stars](https://img.shields.io/github/stars/wed150/Wild-Era-Addon?style=for-the-badge&labelColor=%23007ec6&color=%234b9cd3&label=收藏)]() [![GitHub Release](https://img.shields.io/github/v/release/wed150/Wild-Era-Addon?include_prereleases&display_name=release&style=for-the-badge&labelColor=%23007ec6&color=%234b9cd3&label=最新版本)](https://github.com/wed150/Wild-Era-Addon/releases) [![Afdian Totatl Count](https://img.shields.io/badge/a-7-c?style=for-the-badge&label=爱发电&labelColor=%239469e3&color=%23B291F0)](https://afdian.com/a/Minecraft-Mobius)
 
-➠ Legal Notice:  
-"Out-of-Body Experience" is open-source under the GPLv3.0 license, which is legally binding worldwide (including China).  
-According to the Minecraft EULA, you may not use this add-on for commercial or profit-driven purposes.  
-Modified versions must remain open-source with attribution to EnderTrekker and community contributors. The GPLv3.0 license applies to all derivative works.  
 
-This add-on is open-source.
+
+基岩版Addon
+
+## 下载方法
+
+~~lip install github.com/wed150/Wild-Era-Addon~~
+
+~~这里不是LeviLamina~~
+
+正确方法:
+```
+打开本仓库的Release,找到对应版本下载
+或者使用XXXXXXX
+```
+## 支持我们(爱发电)
+
+[![Static Badge](https://img.shields.io/badge/wed15-%239469e3?style=for-the-badge)](https://afdian.com/a/Minecraft-Mobius) [![Static Badge](https://img.shields.io/badge/luning39-%239469e3?style=for-the-badge)](https://afdian.com/a/luning39) [![Static Badge](https://img.shields.io/badge/Multidomain-%239469e3?style=for-the-badge)](https://afdian.com/a/Multidomain)
+
+>[!WARNING]
+>Copyright (c) 2025 **Wild Era Developer Team**.保留所有权。</br>
+未经事先许可，**严禁**复制、修改、分发、或使用附加包的任何一部分
