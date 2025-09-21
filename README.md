@@ -8,13 +8,32 @@
 
 
 
-基岩版Addon
+基岩版灵魂出窍Addon,实现了类似于java版本灵魂出窍的功能,并在此基础上增加新功能
 
 ## 下载方法
-```
-打开本仓库的Release,找到对应版本下载
-或者使用XXXXXXX
-```
+
+>打开本仓库的Release,找到对应版本下载
+>或者使用这些方式:</br>
+>[爱发电](https://afdian.com/p/8eac50947b4511f0b35a5254001e7c00)</br>
+>[草方块社区](https://web.mccfk.cn/h5/#/pages/plugins/sy_appbox/info?id=926&title=starpro)</br>
+>[MINEBBS](https://www.minebbs.com/resources/e.11200/)</br>
+>[苦力怕论坛](https://klpbbs.com/thread-161066-1-1.html)</br>
+>[123网盘](https://www.123865.com/s/HmjHvd-SOVKdMINEBBShttps://www.minebbs.com/resources/e.11200/)</br>
+>[蓝奏云:密码d2yh](https://wwrp.lanzout.com/b00uyc6ued)</br>
+>[夸克](https://pan.quark.cn/s/7d88419614a6)
+
+## 使用
+>[!Tip]
+>启用Beta版API(测试版API)
+>打开游戏时应该会立马显示帮助信息，否则Addon并没有正常加载
+### 指令
+| 指令 | 功能介绍 |
+| :----: | :----:  |
+| /fca | 打开设置面板,解锁神秘新功能(也可以在其中操作所有指令功能) |
+| /fca tp | 指令传送到灵魂出窍位置(需要管理员在设置面板开启) |
+| /fca on | 指令开启灵魂出窍 |
+| /fca off | 指令关闭灵魂出窍 |
+| /fca help | 帮助 |
 ## 支持我们(爱发电)
 
 [![Static Badge](https://img.shields.io/badge/EnderTrekker-%239469e3?style=for-the-badge)](https://afdian.com/a/EnderTrekker)  [![Static Badge](https://img.shields.io/badge/wed15-%239469e3?style=for-the-badge)](https://afdian.com/a/Minecraft-Mobius)  
