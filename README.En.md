@@ -32,6 +32,11 @@ Bedrock Edition Free Camera Addon: Implements functionality similar to the Java 
 | /fca off | Disables free camera mode |
 | /fca help | Displays help information |
 
+## Support Us (Afdian)
+
+[![Static Badge](https://img.shields.io/badge/EnderTrekker-%239469e3?style=for-the-badge)](https://afdian.com/a/EnderTrekker)  [![Static Badge](https://img.shields.io/badge/wed15-%239469e3?style=for-the-badge)](https://afdian.com/a/Minecraft-Mobius)
+
+
 ## Sponsor Ranking
 
 <!-- RANKING_TABLE_START -->
@@ -62,10 +67,6 @@ Bedrock Edition Free Camera Addon: Implements functionality similar to the Java 
 | 23 | 爱发电用户_AaD8[已注销] | 5 |
 | 24 | AIYING | 5 |
 <!-- RANKING_TABLE_END -->
-
-## Support Us (Afdian)
-
-[![Static Badge](https://img.shields.io/badge/EnderTrekker-%239469e3?style=for-the-badge)](https://afdian.com/a/EnderTrekker)  [![Static Badge](https://img.shields.io/badge/wed15-%239469e3?style=for-the-badge)](https://afdian.com/a/Minecraft-Mobius)  
 
 >[!WARNING]
 >Copyright (c) 2025 **Sea Of Stars Studios**.

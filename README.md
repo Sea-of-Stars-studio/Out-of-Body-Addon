@@ -35,6 +35,10 @@
 | /fca off | 指令关闭灵魂出窍 |
 | /fca help | 帮助 |
 
+## 支持我们(爱发电)
+
+[![Static Badge](https://img.shields.io/badge/EnderTrekker-%239469e3?style=for-the-badge)](https://afdian.com/a/EnderTrekker)  [![Static Badge](https://img.shields.io/badge/wed15-%239469e3?style=for-the-badge)](https://afdian.com/a/Minecraft-Mobius)
+
 ## 发电排行榜
 
 <!-- RANKING_TABLE_START -->
@@ -65,10 +69,6 @@
 | 23 | 爱发电用户_AaD8[已注销] | 5 |
 | 24 | AIYING | 5 |
 <!-- RANKING_TABLE_END -->
-
-## 支持我们(爱发电)
-
-[![Static Badge](https://img.shields.io/badge/EnderTrekker-%239469e3?style=for-the-badge)](https://afdian.com/a/EnderTrekker)  [![Static Badge](https://img.shields.io/badge/wed15-%239469e3?style=for-the-badge)](https://afdian.com/a/Minecraft-Mobius)  
 
 >[!WARNING]
 >Copyright (c) 2025 **Sea Of Stars Studios**.保留所有权。</br>
