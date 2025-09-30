@@ -31,6 +31,12 @@ Bedrock Edition Free Camera Addon: Implements functionality similar to the Java 
 | /fca on | Enables free camera mode |
 | /fca off | Disables free camera mode |
 | /fca help | Displays help information |
+
+## Sponsor Ranking
+
+<!-- RANKING_TABLE_START -->
+<!-- RANKING_TABLE_END -->
+
 ## Support Us (Afdian)
 
 [![Static Badge](https://img.shields.io/badge/EnderTrekker-%239469e3?style=for-the-badge)](https://afdian.com/a/EnderTrekker)  [![Static Badge](https://img.shields.io/badge/wed15-%239469e3?style=for-the-badge)](https://afdian.com/a/Minecraft-Mobius)  

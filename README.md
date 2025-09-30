@@ -34,6 +34,12 @@
 | /fca on | 指令开启灵魂出窍 |
 | /fca off | 指令关闭灵魂出窍 |
 | /fca help | 帮助 |
+
+## 发电排行榜
+
+<!-- RANKING_TABLE_START -->
+<!-- RANKING_TABLE_END -->
+
 ## 支持我们(爱发电)
 
 [![Static Badge](https://img.shields.io/badge/EnderTrekker-%239469e3?style=for-the-badge)](https://afdian.com/a/EnderTrekker)  [![Static Badge](https://img.shields.io/badge/wed15-%239469e3?style=for-the-badge)](https://afdian.com/a/Minecraft-Mobius)  
