@@ -6,13 +6,14 @@ import json
 import re
 from collections import defaultdict
 
+# 控制是否显示最近30天发电列表
+SHOW_RECENT_30_DAYS = True
 
 def calculate_signature(token, params, ts, user_id):
     """计算签名：将 params、ts、user_id 的值拼接后计算 MD5"""
     # 注意：params 已经是字符串形式的 JSON
     sign_str = f"{token}params{params}ts{ts}user_id{user_id}"
     return hashlib.md5(sign_str.encode()).hexdigest()
-
 
 def fetch_api_data(user_id, token, page=1):
     # 获取当前时间戳
@@ -48,11 +49,9 @@ def fetch_api_data(user_id, token, page=1):
 
     # 尝试解析JSON
     try:
-
         return response.json()
     except json.JSONDecodeError as e:
         raise Exception(f"JSON解析失败，响应内容")
-
 
 def process_all_data(user_id, token):
     """获取所有页面的数据"""
@@ -74,7 +73,6 @@ def process_all_data(user_id, token):
 
     return all_orders, total_count
 
-
 def aggregate_user_data(orders):
     """聚合用户数据，按用户汇总金额"""
     user_data = defaultdict(float)
@@ -90,6 +88,18 @@ def aggregate_user_data(orders):
     sorted_data = sorted(user_data.items(), key=lambda x: x[1], reverse=True)
     return sorted_data
 
+def filter_recent_orders(orders, days=30):
+    """过滤最近指定天数的订单"""
+    # 计算30天前的时间戳
+    cutoff_time = int(time.time()) - (days * 24 * 60 * 60)
+
+    recent_orders = []
+    for order in orders:
+        create_time = order.get('create_time', 0)
+        if create_time >= cutoff_time:
+            recent_orders.append(order)
+
+    return recent_orders
 
 def generate_ranking_table(sorted_data, is_english=False):
     """生成排名表格（支持中英文）"""
@@ -114,6 +124,37 @@ def generate_ranking_table(sorted_data, is_english=False):
 
     return "\n".join(table_lines)
 
+def generate_recent_table(orders, is_english=False):
+    """生成最近发电列表表格"""
+    if not orders:
+        if not is_english:
+            return "\n\n## 最近30天发电记录\n\n| 用户名称 | 金额 | 时间 |\n| --- | --- | --- |\n| 暂无数据 | 暂无数据 | 暂无数据 |"
+        else:
+            return "\n\n## Recent 30 Days Sponsor Records\n\n| User Name | Amount | Time |\n| --- | --- | --- |\n| No Data | No Data | No Data |"
+
+    # 按时间倒序排列（最新的在前面）
+    sorted_orders = sorted(orders, key=lambda x: x.get('create_time', 0), reverse=True)
+
+    if not is_english:
+        table_lines = ["\n\n## 最近30天发电记录\n\n| 用户名称 | 金额 | 时间 |", "| --- | --- | --- |"]
+        for order in sorted_orders:
+            user_name = order.get('user_name', '未知用户')
+            amount = f"{float(order.get('total_amount', '0.00')):g}"
+            # 格式化时间
+            create_time = order.get('create_time', 0)
+            time_str = time.strftime('%Y-%m-%d %H:%M', time.localtime(create_time)) if create_time else '未知时间'
+            table_lines.append(f"| {user_name} | {amount} | {time_str} |")
+    else:
+        table_lines = ["\n\n## Recent 30 Days Sponsor Records\n\n| User Name | Amount | Time |", "| --- | --- | --- |"]
+        for order in sorted_orders:
+            user_name = order.get('user_name', 'Unknown User')
+            amount = f"{float(order.get('total_amount', '0.00')):g}"
+            # 格式化时间
+            create_time = order.get('create_time', 0)
+            time_str = time.strftime('%Y-%m-%d %H:%M', time.localtime(create_time)) if create_time else 'Unknown Time'
+            table_lines.append(f"| {user_name} | {amount} | {time_str} |")
+
+    return "\n".join(table_lines)
 
 def update_readme_with_table(file_path, table_content):
     """更新README文件中的发电表格"""
@@ -135,6 +176,31 @@ def update_readme_with_table(file_path, table_content):
     except FileNotFoundError:
         print(f"{file_path} 文件未找到")
 
+def generate_recent_md_file(orders):
+    """生成recentAfdian.md文件内容"""
+    # 生成中英文最近发电列表
+    chinese_recent_table = generate_recent_table(orders, is_english=False)
+    english_recent_table = generate_recent_table(orders, is_english=True)
+
+    # 创建完整的markdown文件内容
+    md_content = f"""# 发电记录统计
+
+## 中文版本
+{chinese_recent_table}
+
+## English Version
+{english_recent_table}
+
+> 更新时间: {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}
+"""
+
+    # 写入recentAfdian.md文件
+    try:
+        with open('recentAfdian.md', 'w', encoding='utf-8') as f:
+            f.write(md_content)
+        print("成功更新recentAfdian.md文件中的最近发电列表")
+    except Exception as e:
+        print(f"更新recentAfdian.md文件时出错")
 
 def update_readme(data_content):
     """更新README文件中的徽章数据"""
@@ -147,7 +213,6 @@ def update_readme(data_content):
     pattern = r'https://img\.shields\.io/badge/a-.*?-c\?style=for-the-badge&label=Afdian&labelColor=%239469e3&color=%23B291F0'
     replacement = f'https://img.shields.io/badge/a-{data_content}-c?style=for-the-badge&label=Afdian&labelColor=%239469e3&color=%23B291F0'
     update_readme_file('README.En.md', pattern, replacement)
-
 
 def update_readme_file(file_path, pattern, replacement):
     """更新单个README文件"""
@@ -162,7 +227,6 @@ def update_readme_file(file_path, pattern, replacement):
     except FileNotFoundError:
         print(f"{file_path} 文件未找到")
 
-
 def mask_user_id(user_id):
     """将user_id中间8位字符替换为********"""
     if not user_id or len(user_id) <= 16:
@@ -171,12 +235,10 @@ def mask_user_id(user_id):
     masked_id = user_id[:8] + "********" + user_id[16:]
     return masked_id
 
-
 if __name__ == "__main__":
     try:
         # 从环境变量获取用户信息
-        secret_key_str =os.environ.get("TOKEN", 'o')
-
+        secret_key_str = os.environ.get('TOKEN')
         # 解析JSON格式的用户信息
         try:
             user_info_list = json.loads(secret_key_str)
@@ -224,6 +286,15 @@ if __name__ == "__main__":
         update_readme_with_table('README.md', chinese_table)
         update_readme_with_table('README.En.md', english_table)
         print("中英文发电排行榜已更新")
+
+        # 如果启用最近30天发电列表功能
+        if SHOW_RECENT_30_DAYS:
+            # 生成最近30天发电列表
+            recent_orders = filter_recent_orders(all_orders, 30)
+
+            # 生成独立的recentAfdian.md文件
+            generate_recent_md_file(recent_orders)
+            print("recentAfdian.md文件已更新")
 
     except Exception as e:
         print(f"程序执行出错")
