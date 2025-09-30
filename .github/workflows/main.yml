@@ -33,6 +33,6 @@ jobs:
         run: |
           git config user.name "wed150"
           git config user.email "wed15058338634@outlook.com"
-          git add README.md README.En.md
+          git add README.md README.En.md recentAfdian.md
           git commit -m "Update API data in README" || echo "No changes to commit"
           git push
