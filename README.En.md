@@ -35,6 +35,32 @@ Bedrock Edition Free Camera Addon: Implements functionality similar to the Java 
 ## Sponsor Ranking
 
 <!-- RANKING_TABLE_START -->
+| Rank | User Name | Amount |
+| --- | --- | --- |
+| 1 | 舟 | 125 |
+| 2 | bigamdsamll1605 | 50 |
+| 3 | HarryCaoGuitar | 45 |
+| 4 | 帥不見將 | 10 |
+| 5 | 爱发电用户_wUsX | 10 |
+| 6 | 爱发电用户_kRDV | 10 |
+| 7 | 不眠之夜 | 10 |
+| 8 | 殇雪 | 7 |
+| 9 | 爱发电用户_X6v3 | 5 |
+| 10 | 咪 | 5 |
+| 11 | 爱发电用户_AESG | 5 |
+| 12 | lakon | 5 |
+| 13 | 叫我无名呀 | 5 |
+| 14 | 爱发电用户_AK9r | 5 |
+| 15 | 冰糖 | 5 |
+| 16 | caelf | 5 |
+| 17 | 爱发电用户_jMx9 | 5 |
+| 18 | Qudis | 5 |
+| 19 | 爱发电用户_7adfb | 5 |
+| 20 | 瞧眼 | 5 |
+| 21 | 爱发电用户_RAcG | 5 |
+| 22 | 爱发电用户_49HE | 5 |
+| 23 | 爱发电用户_AaD8[已注销] | 5 |
+| 24 | AIYING | 5 |
 <!-- RANKING_TABLE_END -->
 
 ## Support Us (Afdian)
