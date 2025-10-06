@@ -21,7 +21,6 @@ Bedrock Edition Free Camera Addon: Implements functionality similar to the Java 
 > [Quark Drive](https://pan.quark.cn/s/7d88419614a6)
 ## Usage 
 >[!Tip]
->Enable Beta API (Experimental API)
 >Upon launching the game, the help message should appear immediately. If not, the Addon may not have loaded correctly.
 ### Commands 
 | Command | Description |
