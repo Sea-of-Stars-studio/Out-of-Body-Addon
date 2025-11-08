@@ -2,7 +2,7 @@ name: Update README with API Data
 
 on:
   schedule:
-    - cron: '0/6 * * * *'  # 每6运行一次
+    - cron: '0 0 * * *'  # 每6运行一次
   workflow_dispatch:       # 允许手动触发
   push:
     branches: [ main ]
