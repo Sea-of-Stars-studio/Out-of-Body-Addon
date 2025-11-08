@@ -9,7 +9,7 @@
 [![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Sea-of-Stars-studio/Out-of-Body-Addon/total?style=for-the-badge&labelColor=%23007ec6&label=下载&color=%234b9cd3)](https://github.com/Sea-of-Stars-studio/Out-of-Body-Addon/releases) [![GitHub forks](https://img.shields.io/github/forks/Sea-of-Stars-studio/Out-of-Body-Addon?style=for-the-badge&labelColor=%23007ec6&color=%234b9cd3)]() [![GitHub Repo stars](https://img.shields.io/github/stars/Sea-of-Stars-studio/Out-of-Body-Addon?style=for-the-badge&labelColor=%23007ec6&color=%234b9cd3&label=收藏)]() [![GitHub Release](https://img.shields.io/github/v/release/Sea-of-Stars-studio/Out-of-Body-Addon?include_prereleases&display_name=release&style=for-the-badge&labelColor=%23007ec6&color=%234b9cd3&label=最新版本)](https://github.com/Sea-of-Stars-studio/Out-of-Body-Addon/releases) [![Afdian Totatl Count](https://img.shields.io/badge/a-39-c?style=for-the-badge&label=爱发电&labelColor=%239469e3&color=%23B291F0)](https://afdian.com/a/Minecraft-Mobius)
 
 
-### 该版本支持从1.21.100及其以后(已发布或未来发布)所有版本，本项目将实行非活跃维护(特殊情况恢复)，但会偶尔进行功能更新
+### R1.2支持从1.21.100及其以后(已发布或未来发布)所有版本，本项目将实行非活跃维护(特殊情况恢复)，但会偶尔进行功能更新
 
 基岩版灵魂出窍Addon,实现了类似于java版本灵魂出窍的功能,并在此基础上增加新功能
 </div>
