@@ -53,7 +53,7 @@ Bedrock Edition Free Camera Addon: Implements functionality similar to the Java 
 | 3 | HarryCaoGuitar | 45 |
 | 4 | 帥不見將 | 15 |
 | 5 | lakon | 10 |
-| 6 | LAN JING | 10 |
+| 6 | LAN_JING | 10 |
 | 7 | 爱发电用户_wUsX | 10 |
 | 8 | 爱发电用户_kRDV | 10 |
 | 9 | 不眠之夜 | 10 |
