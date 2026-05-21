@@ -20,11 +20,16 @@ Bedrock Edition Free Camera Addon: Implements functionality similar to the Java 
 > Open the Release section of this repository and download the corresponding version.
 > Alternatively, use one of the following methods:
 > [Afdian](https://afdian.com/p/8eac50947b4511f0b35a5254001e7c00)
+> 
 > [MCCFK Community](https://web.mccfk.cn/h5/#/pages/plugins/sy_appbox/info?id=926&title=starpro)
+> 
 > [MINEBBS](https://www.minebbs.com/resources/e.11200/)
 > [KlpBBS Forum](https://klpbbs.com/thread-161066-1-1.html)
+> 
 > [123 Cloud Disk](https://www.123865.com/s/HmjHvd-lYTud)
+> 
 > [Lanzou Cloud: Password d2yh](https://wwrp.lanzout.com/b00uyc6ued)
+> 
 > [Quark Drive](https://pan.quark.cn/s/7d88419614a6)
 ## Usage 
 >[!Tip]
