@@ -38,7 +38,7 @@
 | /fca off | 指令关闭灵魂出窍 |
 | /fca help | 帮助 |
 
-需要帮助，想讨论技术性的Minecraft，或者关注未来的更新？加入我们的Discord！[**Join our Discord!**](https://discord.gg/nmcrKCDZvE)
+需要帮助，想讨论技术性的Minecraft，或者关注未来的更新？[**加入我们的Discord！**](https://discord.gg/nmcrKCDZvE)
 ## 支持我们(爱发电)
 
 [![Static Badge](https://img.shields.io/badge/EnderTrekker-%239469e3?style=for-the-badge)](https://afdian.com/a/EnderTrekker)  [![Static Badge](https://img.shields.io/badge/wed15-%239469e3?style=for-the-badge)](https://afdian.com/a/Minecraft-Mobius)
