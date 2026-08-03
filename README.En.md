@@ -6,7 +6,7 @@
 [![English](https://img.shields.io/badge/English-inactive?style=for-the-badge&color=%235d8aa8)](README.En.md)
 [![中文](https://img.shields.io/badge/简体中文-informational?style=for-the-badge)](README.md)
 
-[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Sea-of-Stars-studio/Out-of-Body-Addon/total?style=for-the-badge&labelColor=%23007ec6&color=%234b9cd3)](https://github.com/Sea-of-Stars-studio/Out-of-Body-Addon/releases) ![GitHub forks](https://img.shields.io/github/forks/Sea-of-Stars-studio/Out-of-Body-Addon?style=for-the-badge&labelColor=%23007ec6&color=%234b9cd3) ![GitHub Repo stars](https://img.shields.io/github/stars/Sea-of-Stars-studio/Out-of-Body-Addon?style=for-the-badge&labelColor=%23007ec6&color=%234b9cd3) [![GitHub Release](https://img.shields.io/github/v/release/Sea-of-Stars-studio/Out-of-Body-Addon?include_prereleases&display_name=release&style=for-the-badge&labelColor=%23007ec6&color=%234b9cd3)](https://github.com/wed150/Wild-Era-Addon/releases) [![Afdian Totatl Count](https://img.shields.io/badge/a-44-c?style=for-the-badge&label=Afdian&labelColor=%239469e3&color=%23B291F0)](https://afdian.com/a/Minecraft-Mobius)
+[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Sea-of-Stars-studio/Out-of-Body-Addon/total?style=for-the-badge&labelColor=%23007ec6&color=%234b9cd3)](https://github.com/Sea-of-Stars-studio/Out-of-Body-Addon/releases) ![GitHub forks](https://img.shields.io/github/forks/Sea-of-Stars-studio/Out-of-Body-Addon?style=for-the-badge&labelColor=%23007ec6&color=%234b9cd3) ![GitHub Repo stars](https://img.shields.io/github/stars/Sea-of-Stars-studio/Out-of-Body-Addon?style=for-the-badge&labelColor=%23007ec6&color=%234b9cd3) [![GitHub Release](https://img.shields.io/github/v/release/Sea-of-Stars-studio/Out-of-Body-Addon?include_prereleases&display_name=release&style=for-the-badge&labelColor=%23007ec6&color=%234b9cd3)](https://github.com/wed150/Wild-Era-Addon/releases) [![Afdian Totatl Count](https://img.shields.io/badge/a-45-c?style=for-the-badge&label=Afdian&labelColor=%239469e3&color=%23B291F0)](https://afdian.com/a/Minecraft-Mobius)
 
 
 ### R1.2 supports all versions from 1.21.100 and later (either already released or to be released in the future). This project will be maintained with minimal activity (restored under special circumstances), but occasional feature updates will still be performed.
@@ -59,30 +59,31 @@ Need help, want to discuss technical Minecraft, or follow future updates? [**Joi
 | 3 | HarryCaoGuitar | 45 |
 | 4 | 爱发电用户_f1a39 | 30 |
 | 5 | 帥不見將 | 20 |
-| 6 | lakon | 10 |
-| 7 | LAN_JING | 10 |
-| 8 | 爱发电用户_wUsX | 10 |
-| 9 | 爱发电用户_kRDV | 10 |
-| 10 | 不眠之夜 | 10 |
-| 11 | 殇雪 | 7 |
-| 12 | xpsteve | 5 |
-| 13 | 爱发电用户_U5W6 | 5 |
-| 14 | 沅 | 5 |
-| 15 | 爱发电用户_WyTa | 5 |
-| 16 | 爱发电用户_X6v3 | 5 |
-| 17 | 咪 | 5 |
-| 18 | 爱发电用户_AESG | 5 |
-| 19 | 叫我无名呀 | 5 |
-| 20 | 爱发电用户_AK9r | 5 |
-| 21 | 冰糖 | 5 |
-| 22 | caelf | 5 |
-| 23 | 小柯 | 5 |
-| 24 | Qudis | 5 |
-| 25 | 瞧眼 | 5 |
-| 26 | 爱发电用户_RAcG | 5 |
-| 27 | 爱发电用户_49HE | 5 |
-| 28 | 爱发电用户_AaD8[已注销] | 5 |
-| 29 | AIYING | 5 |
+| 6 | Amuro.ray | 10 |
+| 7 | lakon | 10 |
+| 8 | LAN_JING | 10 |
+| 9 | 爱发电用户_wUsX | 10 |
+| 10 | 爱发电用户_kRDV | 10 |
+| 11 | 不眠之夜 | 10 |
+| 12 | 殇雪 | 7 |
+| 13 | xpsteve | 5 |
+| 14 | 爱发电用户_U5W6 | 5 |
+| 15 | 沅 | 5 |
+| 16 | 爱发电用户_WyTa | 5 |
+| 17 | 爱发电用户_X6v3 | 5 |
+| 18 | 咪 | 5 |
+| 19 | 爱发电用户_AESG | 5 |
+| 20 | 叫我无名呀 | 5 |
+| 21 | 爱发电用户_AK9r | 5 |
+| 22 | 冰糖 | 5 |
+| 23 | caelf | 5 |
+| 24 | 小柯 | 5 |
+| 25 | Qudis | 5 |
+| 26 | 瞧眼 | 5 |
+| 27 | 爱发电用户_RAcG | 5 |
+| 28 | 爱发电用户_49HE | 5 |
+| 29 | 爱发电用户_AaD8[已注销] | 5 |
+| 30 | AIYING | 5 |
 <!-- RANKING_TABLE_END -->
 
 >[!WARNING]
